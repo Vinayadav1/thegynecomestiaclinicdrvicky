@@ -5,7 +5,7 @@ export const CLINIC_ADDRESS = 'Dr Vicky Jain, Corporate Corner, 105, near Dalmia
 export const CLINIC_PHONE = '+91-9619489446'
 export const CLINIC_EMAIL = 'thegynecomastiaclinic@gmail.com'
 export const WHATSAPP_LINK = 'https://wa.me/919619489446'
-export const MAPS_LINK = 'https://www.google.com/maps/search/Dr+Vicky+Jain+Gynecomastia+Clinic+Corporate+Corner+105+Malad+West+Mumbai+400064'
+export const MAPS_LINK = 'https://maps.app.goo.gl/FfPsQzecWHCRbzqY8'
 export const MAPS_EMBED = 'https://maps.google.com/maps?q=Dr+Vicky+Jain+Corporate+Corner+105+near+Dalmia+College+Malad+West+Mumbai+Maharashtra+400064&output=embed&z=16'
 
 // Local gynecomastia images from /public
