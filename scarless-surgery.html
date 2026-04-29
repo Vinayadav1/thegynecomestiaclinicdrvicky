@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html class="overflow-x-hidden" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Scarless Gynecomastia Surgery | The Gynecomastia Clinic</title>
+<meta content="Scarless gynecomastia surgery by Dr. Vicky Jain. Minimal incision techniques for virtually invisible scars and natural results." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0a1628', light: '#1a2942', dark: '#050b14' },
+            teal: { DEFAULT: '#14b8a6', dark: '#0d9488' },
+            amber: { DEFAULT: '#fbbf24', dark: '#d97706' }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+<style>
+    html, body { overflow-x: hidden; width: 100%; position: relative;
+      background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); }
+    .navbar-glass { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(94, 234, 212, 0.15); }
+    /* Hide scrollbars globally */
+    * {
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+    }
+    *::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+    
+    /* Fix heading scroll bug - prevent headings from moving on hover/scroll */
+    h1, h2, h3, h4, h5, h6, p, span, div {
+      transform: none !important;
+      will-change: auto !important;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+    
+    /* Disable pointer events interference */
+    * {
+      pointer-events: auto;
+    }
+    
+    /* Blob animations */
+    @keyframes blob {
+      0% { transform: translate(0px, 0px) scale(1); }
+      33% { transform: translate(30px, -50px) scale(1.1); }
+      66% { transform: translate(-20px, 20px) scale(0.9); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    .animate-blob {
+      animation: blob 7s infinite;
+      filter: blur(80px);
+      opacity: 0.15;
+    }
+    .animation-delay-2000 {
+      animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }
+  </style>
+</head>
+<body class="font-sans text-slate-800 bg-white antialiased overflow-x-hidden">
+<nav class="fixed top-0 w-full z-50 navbar-glass py-4">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center">
+<a class='flex items-center gap-2' href='index.html'>
+<div class="w-10 h-10 bg-gradient-to-br from-teal-400 to-teal-700 rounded-lg flex items-center justify-center">
+<span class="text-white font-serif font-bold text-xl">G</span>
+</div>
+<div class="flex flex-col">
+<span class="text-white font-serif font-bold text-lg leading-tight">The Gynecomastia Clinic</span>
+<span class="text-teal-400 text-[10px] tracking-widest uppercase font-bold">Expert Surgical Care</span>
+</div>
+</a>
+<div class="hidden md:flex items-center space-x-8">
+<a class='text-white hover:text-teal-400 transition-colors font-medium' href='index.html'>Home</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium' href='about.html'>About</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium' href='treatment.html'>Treatments</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium' href='gallery.html'>Gallery</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium' href='contact.html'>Contact</a>
+<a class='bg-teal hover:bg-teal-dark text-white px-6 py-2.5 rounded-full font-semibold transition-all shadow-lg' href='contact.html'>Book Now</a>
+</div>
+<!-- Mobile Toggle -->
+<button class="md:hidden text-white" id="mobile-menu-button" onclick="toggleMobileMenu()">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+<!-- Mobile Menu -->
+<div class="md:hidden hidden bg-navy-light mt-4 rounded-2xl overflow-hidden" id="mobile-menu">
+<div class="flex flex-col space-y-4 p-6">
+<a class='text-white hover:text-teal-400 transition-colors font-medium py-2' href='index.html'>Home</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium py-2' href='about.html'>About</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium py-2' href='treatment.html'>Treatments</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium py-2' href='gallery.html'>Gallery</a>
+<a class='text-white hover:text-teal-400 transition-colors font-medium py-2' href='contact.html'>Contact</a>
+<a class='bg-teal hover:bg-teal-dark text-white px-6 py-3 rounded-full font-semibold transition-all text-center' href='contact.html'>Book Now</a>
+</div>
+</div>
+</div>
+</nav>
+
+<script>
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobile-menu');
+  menu.classList.toggle('hidden');
+}
+
+// Close menu when any link is clicked
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (mobileMenu) {
+    const menuLinks = mobileMenu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  }
+});
+</script>
+
+<section class="relative bg-navy pt-32 pb-20 overflow-hidden">
+<!-- Animated Blobs -->
+<div class="absolute top-0 -left-4 w-72 h-72 bg-teal opacity-20 filter blur-[80px] rounded-full animate-blob"></div>
+<div class="absolute top-0 -right-4 w-72 h-72 bg-amber opacity-10 filter blur-[80px] rounded-full animate-blob animation-delay-2000"></div>
+<div class="absolute -bottom-8 left-20 w-72 h-72 bg-teal opacity-10 filter blur-[80px] rounded-full animate-blob animation-delay-4000"></div>
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center">
+<div class="inline-block px-4 py-2 bg-teal/10 border border-teal/20 rounded-full mb-6">
+<span class="text-teal-400 font-bold text-sm">INVISIBLE SURGERY</span>
+</div>
+<h1 class="text-5xl md:text-6xl font-serif font-bold text-white mb-6">Scarless Gynecomastia Surgery</h1>
+<p class="text-xl text-slate-300 max-w-3xl mx-auto">Advanced Techniques for Virtually Invisible Scars</p>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center mb-20">
+<div>
+<div class="aspect-square bg-gradient-to-br from-teal/10 to-navy/10 rounded-3xl flex items-center justify-center p-12">
+<div class="text-center">
+<svg class="w-32 h-32 mx-auto text-teal/30 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-7.714 2.143L11 21l-2.286-6.857L1 12l7.714-2.143L11 3z"></path></svg>
+<p class="text-navy font-semibold text-xl">Invisible Surgery Philosophy</p>
+<p class="text-slate-600 text-sm mt-2">Minimal Incisions, Maximum Results</p>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-4xl font-serif font-bold text-navy mb-6">What is Scarless Surgery?</h2>
+<p class="text-lg text-slate-700 mb-6 leading-relaxed">
+"Scarless" gynecomastia surgery refers to advanced surgical techniques that minimize visible scarring through tiny, strategically placed incisions. While no surgery is truly scarless, Dr. Jain's approach results in scars so minimal they're virtually undetectable.
+</p>
+<p class="text-lg text-slate-700 mb-6 leading-relaxed">
+Using state-of-the-art ultrasound technology and meticulous surgical technique, Dr. Jain performs gynecomastia correction through incisions as small as 3-4mm, hidden in natural skin creases or the areola border.
+</p>
+<div class="bg-teal/10 border-l-4 border-teal p-6 rounded-r-2xl">
+<p class="text-slate-700"><strong>Dr. Jain's Promise:</strong> Scars so minimal, you'll forget you had surgery. Most patients report their scars fade to nearly invisible within 6-12 months.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-slate-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-serif font-bold text-navy mb-6">Advanced Scarless Techniques</h2>
+<p class="text-slate-600 max-w-3xl mx-auto">Multiple approaches to minimize scarring while achieving excellent results.</p>
+</div>
+
+<div class="grid md:grid-cols-2 gap-12">
+<div class="bg-white p-10 rounded-3xl shadow-lg">
+<div class="w-16 h-16 bg-teal rounded-2xl flex items-center justify-center mb-6">
+<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+</div>
+<h3 class="text-2xl font-serif font-bold text-navy mb-4">Advanced Techniques</h3>
+<p class="text-slate-700 mb-6 leading-relaxed">For Grade 1 and pseudo-gynecomastia cases, tiny 3-4mm incisions are all that's needed.</p>
+<ul class="space-y-3 text-slate-600">
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-teal mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Incisions smaller than a grain of rice</span></li>
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-teal mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Hidden in natural skin folds</span></li>
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-teal mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Fade to nearly invisible</span></li>
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-teal mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>No stitches required</span></li>
+</ul>
+</div>
+
+<div class="bg-white p-10 rounded-3xl shadow-lg">
+<div class="w-16 h-16 bg-amber rounded-2xl flex items-center justify-center mb-6">
+<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+</div>
+<h3 class="text-2xl font-serif font-bold text-navy mb-4">Periareolar Incision</h3>
+<p class="text-slate-700 mb-6 leading-relaxed">For cases requiring gland excision, incisions are placed along the areola border where they blend naturally.</p>
+<ul class="space-y-3 text-slate-600">
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-amber mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Follows natural color transition</span></li>
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-amber mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Camouflaged by pigmentation</span></li>
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-amber mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Minimal length (2-3cm)</span></li>
+<li class="flex items-start gap-2"><svg class="w-5 h-5 text-amber mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Excellent healing properties</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-serif font-bold text-navy mb-6">Scar Minimization Strategy</h2>
+<p class="text-slate-600 max-w-3xl mx-auto">Dr. Jain employs multiple techniques to ensure optimal scar healing.</p>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8 mb-16">
+<div class="text-center p-8">
+<div class="w-20 h-20 bg-teal/10 rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="text-3xl font-bold text-teal">1</span>
+</div>
+<h3 class="text-xl font-bold text-navy mb-3">Surgical Precision</h3>
+<p class="text-slate-600">Meticulous technique with finest surgical instruments for clean incisions</p>
+</div>
+<div class="text-center p-8">
+<div class="w-20 h-20 bg-amber/10 rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="text-3xl font-bold text-amber-600">2</span>
+</div>
+<h3 class="text-xl font-bold text-navy mb-3">Strategic Placement</h3>
+<p class="text-slate-600">Incisions hidden in natural creases and color transitions</p>
+</div>
+<div class="text-center p-8">
+<div class="w-20 h-20 bg-teal/10 rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="text-3xl font-bold text-teal">3</span>
+</div>
+<h3 class="text-xl font-bold text-navy mb-3">Advanced Closure</h3>
+<p class="text-slate-600">Layered suturing technique for optimal healing and minimal scarring</p>
+</div>
+</div>
+
+<div class="bg-navy rounded-3xl p-12">
+<h3 class="text-3xl font-serif font-bold text-white mb-8 text-center">Post-Operative Scar Care</h3>
+<div class="grid md:grid-cols-2 gap-8">
+<div>
+<h4 class="text-xl font-bold text-white mb-6">First 2 Weeks</h4>
+<ul class="space-y-3 text-slate-300">
+<li class="flex gap-3"><svg class="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Keep incisions clean and dry</span></li>
+<li class="flex gap-3"><svg class="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Follow wound care instructions</span></li>
+<li class="flex gap-3"><svg class="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Avoid sun exposure</span></li>
+<li class="flex gap-3"><svg class="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Wear compression garment</span></li>
+</ul>
+</div>
+<div>
+<h4 class="text-xl font-bold text-white mb-6">Weeks 2-12</h4>
+<ul class="space-y-3 text-slate-300">
+<li class="flex gap-3"><svg class="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Apply silicone gel or sheets</span></li>
+<li class="flex gap-3"><svg class="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Gentle scar massage</span></li>
+<li class="flex gap-3"><svg class="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Use sunscreen (SPF 50+)</span></li>
+<li class="flex gap-3"><svg class="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Attend follow-up appointments</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-slate-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-serif font-bold text-navy mb-6">Scar Healing Timeline</h2>
+</div>
+
+<div class="max-w-4xl mx-auto">
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="flex-shrink-0">
+<div class="w-16 h-16 bg-teal rounded-full flex items-center justify-center text-white font-bold">2W</div>
+</div>
+<div class="bg-white p-6 rounded-2xl flex-1 shadow-sm">
+<h3 class="text-xl font-bold text-navy mb-2">2 Weeks</h3>
+<p class="text-slate-600">Incisions closed and healing. Scars appear red or pink.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0">
+<div class="w-16 h-16 bg-teal rounded-full flex items-center justify-center text-white font-bold">6W</div>
+</div>
+<div class="bg-white p-6 rounded-2xl flex-1 shadow-sm">
+<h3 class="text-xl font-bold text-navy mb-2">6 Weeks</h3>
+<p class="text-slate-600">Scars begin to fade. Color lightens gradually.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0">
+<div class="w-16 h-16 bg-amber rounded-full flex items-center justify-center text-white font-bold">3M</div>
+</div>
+<div class="bg-white p-6 rounded-2xl flex-1 shadow-sm">
+<h3 class="text-xl font-bold text-navy mb-2">3 Months</h3>
+<p class="text-slate-600">Significant fading. Scars becoming less noticeable.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0">
+<div class="w-16 h-16 bg-amber rounded-full flex items-center justify-center text-white font-bold">1Y</div>
+</div>
+<div class="bg-white p-6 rounded-2xl flex-1 shadow-sm">
+<h3 class="text-xl font-bold text-navy mb-2">12 Months</h3>
+<p class="text-slate-600">Scars mature to thin, pale lines. Nearly invisible to most observers.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-navy">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-4xl font-serif font-bold text-white mb-6">Experience Invisible Surgery</h2>
+<p class="text-slate-300 mb-8 max-w-2xl mx-auto">Discover how Dr. Vicky Jain's scarless techniques can give you the results you want without visible reminders.</p>
+<a class='inline-block bg-teal hover:bg-teal-dark text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all shadow-xl' href='contact.html'>Book Free Consultation</a>
+</div>
+</section>
+
+<!-- BEGIN: Footer -->
+<footer class="bg-navy-dark pt-24 pb-12 text-slate-400 border-t border-white/5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Brand -->
+<div class="space-y-6">
+<a class="flex items-center gap-2" href="index.html">
+<div class="w-10 h-10 bg-teal rounded-lg flex items-center justify-center">
+<span class="text-white font-serif font-bold text-xl">G</span>
+</div>
+<span class="text-white font-serif font-bold text-lg">The Gynecomastia Clinic</span>
+</a>
+<p class="text-sm leading-relaxed">
+            Leading the way in male aesthetic surgery. Dedicated to providing safe, effective, and confidence-building surgical solutions.
+          </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-teal transition-colors" href="#"><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-teal transition-colors" href="#"><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a>
+</div>
+</div>
+<!-- Links -->
+<div>
+<h4 class="text-white font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4 text-sm">
+<li><a class='hover:text-teal transition-colors' href='index.html'>Home</a></li>
+<li><a class='hover:text-teal transition-colors' href='about.html'>About Dr. Vicky Jain</a></li>
+<li><a class='hover:text-teal transition-colors' href='treatment.html'>Why Choose Us</a></li>
+<li><a class='hover:text-teal transition-colors' href='gallery.html'>Results Gallery</a></li>
+<li><a class='hover:text-teal transition-colors' href='contact.html'>Contact Us</a></li>
+</ul>
+</div>
+<!-- Services -->
+<div>
+<h4 class="text-white font-bold mb-6">Specializations</h4>
+<ul class="space-y-4 text-sm">
+<li><a class='hover:text-teal transition-colors' href='grade-1-gynecomastia.html'>Grade 1 Gynecomastia</a></li>
+<li><a class='hover:text-teal transition-colors' href='grade-2-3-gynecomastia.html'>Grade 2 &amp; 3 Correction</a></li>
+<li><a class='hover:text-teal transition-colors' href='pseudo-gynecomastia.html'>Pseudo-gynecomastia</a></li>
+<li><a class='hover:text-teal transition-colors' href='chest-contouring.html'>Chest Contouring</a></li>
+<li><a class='hover:text-teal transition-colors' href='scarless-surgery.html'>Scarless Surgery</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h4 class="text-white font-bold mb-6">Get in Touch</h4>
+<ul class="space-y-4 text-sm">
+<li class="flex items-start gap-3">
+<svg class="w-5 h-5 text-teal mt-0.5 shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>101, Mani Mahal, Above Sanghi Oxygen, Shrimad Rajchandraji Marg, Charni Road East, Opera House, Girgaon, Mumbai, 400004</span>
+</li>
+<li class="flex items-center gap-3">
+<svg class="w-5 h-5 text-teal shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>+91-7977988969</span>
+</li>
+<li class="flex items-center gap-3">
+<svg class="w-5 h-5 text-teal shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>thegynecomastiaclinic@gmail.com</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+<p>© 2024 The Gynecomastia Clinic. All rights reserved. Dr. Vicky Jain Plastic Surgery.</p>
+<div class="flex gap-6">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+<a class="hover:text-white" href="#">Medical Disclaimer</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: Footer -->
+<!-- BEGIN: Floating CTAs -->
+<div class="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-50 flex flex-col gap-3">
+<a class="bg-indigo-600 text-white p-3 sm:p-4 rounded-full shadow-2xl hover:bg-indigo-700 transition-all hover:scale-110 active:scale-95 group relative" href="tel:+917977988969" title="Call Us">
+<svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="absolute left-full ml-3 px-2 py-1 bg-navy text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden sm:block">Call Now</span>
+</a>
+</div>
+<div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col gap-3">
+<a class="bg-green-500 text-white p-3 sm:p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all hover:scale-110 active:scale-95 group relative" href="https://wa.me/917977988969" target="_blank" title="WhatsApp Us">
+<svg class="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewbox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.29-4.143c1.589.943 3.125 1.419 4.667 1.419 5.239 0 9.504-4.265 9.506-9.505.001-2.541-.99-4.93-2.791-6.731-1.801-1.801-4.189-2.793-6.729-2.793-5.241 0-9.507 4.265-9.509 9.505-.001 1.718.469 3.391 1.356 4.847l-1.012 3.704 3.793-.996zm11.366-6.412c-.033-.055-.123-.089-.259-.156-.135-.067-.801-.394-.925-.44-.123-.044-.213-.067-.303.068-.09.135-.35.439-.427.53-.078.089-.157.101-.293.033-.135-.067-.571-.211-1.087-.671-.401-.357-.671-.799-.75-1.336-.078-.135-.008-.208.059-.275.061-.06.135-.157.203-.236.067-.079.09-.135.135-.225.045-.09.023-.168-.011-.236-.034-.067-.303-.732-.416-.994-.11-.266-.223-.23-.303-.234-.078-.004-.168-.005-.259-.005s-.236.034-.36.168c-.123.135-.473.461-.473 1.124s.484 1.305.551 1.395c.067.09 1.123 1.717 2.721 2.408.38.164.677.262.909.336.382.121.73.104 1.005.063.307-.046.925-.379 1.058-.745.135-.365.135-.678.09-.745z"></path></svg>
+<span class="absolute right-full mr-3 px-2 py-1 bg-navy text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden sm:block">WhatsApp</span>
+</a>
+</div>
+<!-- END: Floating CTAs -->
+</body>
+</html>
