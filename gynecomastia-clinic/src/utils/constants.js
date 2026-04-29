@@ -1,7 +1,7 @@
 ﻿export const DOCTOR_IMAGE = '/dr-image/Dr Vicky Jain 1.png'
 export const DOCTOR_IMAGE_2 = '/dr-image/Dr Vicky Jain 2.jpeg'
 
-export const CLINIC_ADDRESS = 'Mani Mahal, 101, Shrimad Rajchandraji Marg, Charni Road East, Opera House, Girgaon, Mumbai, Maharashtra 400004'
+export const CLINIC_ADDRESS = 'Dr Vicky Jain Plastic Surgeon, Mani Mahal, 101, Shrimad Rajchandraji Marg, Charni Road East, Opera House, Girgaon, Mumbai, Maharashtra 400004'
 export const CLINIC_PHONE = '+91-9619489446'
 export const CLINIC_EMAIL = 'thegynecomastiaclinic@gmail.com'
 export const WHATSAPP_LINK = 'https://wa.me/919619489446'
