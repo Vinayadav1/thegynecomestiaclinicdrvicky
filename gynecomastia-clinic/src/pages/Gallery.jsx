@@ -90,9 +90,9 @@ export default function Gallery() {
               <h2 className="text-4xl font-serif font-bold mb-6" style={{ color: "#0a1628" }}>More Patient Results</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-              {GYN_IMAGES.slice(9, 17).map((img, i) => (
+              {Array.from({ length: 18 }, (_, i) => `/results/result1 (${i + 1}).jpeg`).map((img, i) => (
                 <div key={i} className="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group">
-                  <img src={img} alt={`Patient result ${i + 10}`} className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  <img src={img} alt={`Patient result ${i + 1}`} className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 </div>
               ))}
             </div>
