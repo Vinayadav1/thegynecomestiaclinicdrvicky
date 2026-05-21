@@ -9,7 +9,6 @@ const Gallery = lazy(() => import("./pages/Gallery"))
 const Contact = lazy(() => import("./pages/Contact"))
 const Grade1 = lazy(() => import("./pages/Grade1"))
 const Grade23 = lazy(() => import("./pages/Grade23"))
-const Pseudo = lazy(() => import("./pages/Pseudo"))
 const ChestContouring = lazy(() => import("./pages/ChestContouring"))
 const ScarlessSurgery = lazy(() => import("./pages/ScarlessSurgery"))
 
@@ -34,7 +33,6 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/grade-1-gynecomastia" element={<Grade1 />} />
             <Route path="/grade-2-3-gynecomastia" element={<Grade23 />} />
-            <Route path="/pseudo-gynecomastia" element={<Pseudo />} />
             <Route path="/chest-contouring" element={<ChestContouring />} />
             <Route path="/scarless-surgery" element={<ScarlessSurgery />} />
             <Route path="*" element={<Home />} />

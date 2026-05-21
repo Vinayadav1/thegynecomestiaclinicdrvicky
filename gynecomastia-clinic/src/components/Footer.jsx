@@ -51,7 +51,6 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li><Link className="hover:text-teal-400 transition-colors" to="/grade-1-gynecomastia">Grade 1 Gynecomastia</Link></li>
               <li><Link className="hover:text-teal-400 transition-colors" to="/grade-2-3-gynecomastia">Grade 2 &amp; 3 Correction</Link></li>
-              <li><Link className="hover:text-teal-400 transition-colors" to="/pseudo-gynecomastia">Pseudo-gynecomastia</Link></li>
               <li><Link className="hover:text-teal-400 transition-colors" to="/chest-contouring">Chest Contouring</Link></li>
               <li><Link className="hover:text-teal-400 transition-colors" to="/scarless-surgery">Scarless Surgery</Link></li>
             </ul>
