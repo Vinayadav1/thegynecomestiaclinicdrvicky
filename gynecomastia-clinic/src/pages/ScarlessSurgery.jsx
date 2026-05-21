@@ -16,7 +16,7 @@ export default function ScarlessSurgery() {
           <FadeIn>
             <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
               <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img src={GYN_IMAGES[24]} alt="Scarless Surgery Result" className="w-full h-full object-cover" loading="lazy" />
+                <img src="/before-after/after-1.jpg" alt="Scarless Surgery Result" className="w-full h-full object-cover" loading="lazy" />
               </div>
               <div>
                 <h2 className="text-4xl font-serif font-bold mb-6" style={{ color: "#0a1628" }}>What is Scarless Surgery?</h2>
