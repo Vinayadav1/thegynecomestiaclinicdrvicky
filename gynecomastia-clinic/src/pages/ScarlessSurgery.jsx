@@ -63,13 +63,6 @@ export default function ScarlessSurgery() {
             </div>
           </FadeIn>
           <FadeIn delay={150}>
-            <div className="grid md:grid-cols-3 gap-6 mb-16">
-              {GYN_IMAGES.slice(12, 15).map((img, i) => (
-                <div key={i} className="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all group">
-                  <img src={img} alt={`Scarless result ${i + 1}`} className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-                </div>
-              ))}
-            </div>
             <div className="text-center mb-16">
               <h2 className="text-4xl font-serif font-bold mb-6" style={{ color: "#0a1628" }}>Scar Healing Timeline</h2>
             </div>
